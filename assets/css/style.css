@@ -3,6 +3,14 @@ body {
     background-attachment: fixed; 
 
 }
+.header {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px dotted white;
+    background-color: rgba(255, 255, 255, 0.37);
+}
 
 .container {
     height: 100%;
