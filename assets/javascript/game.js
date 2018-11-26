@@ -29,7 +29,7 @@ $("#submit").on("click", function(event) {
     $(".buttons").append(button);
 
 
-    let queryURL = "http://api.giphy.com/v1/gifs/search?q=" + input + "&api_key=8fXgerysAnG8XcRSZByQxv0shnCkZ6Xo&limit=10";
+    let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&api_key=8fXgerysAnG8XcRSZByQxv0shnCkZ6Xo&limit=10";
 
     $.ajax({
       url: queryURL,
@@ -60,7 +60,7 @@ $(".choices").on("click", function() {
 
     let input = this.getAttribute("text");
    
-    let queryURL = "http://api.giphy.com/v1/gifs/search?q=" + input + "&api_key=8fXgerysAnG8XcRSZByQxv0shnCkZ6Xo&limit=10";
+    let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&api_key=8fXgerysAnG8XcRSZByQxv0shnCkZ6Xo&limit=10";
 
     $.ajax({
       url: queryURL,
@@ -97,7 +97,7 @@ $(document).on("click", ".images", function() {
     let source = this.getAttribute("src");
    
 
-    let queryURL = "http://api.giphy.com/v1/gifs/" + imageId + "?api_key=8fXgerysAnG8XcRSZByQxv0shnCkZ6Xo&";
+    let queryURL = "https://api.giphy.com/v1/gifs/" + imageId + "?api_key=8fXgerysAnG8XcRSZByQxv0shnCkZ6Xo&";
 
     $.ajax({
       url: queryURL,
