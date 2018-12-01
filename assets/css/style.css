@@ -61,3 +61,52 @@ body {
     font-weight: bold;
     display: block;
 }
+
+.instructions {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.459);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+#giph-instructions {
+	position: relative;
+    border-radius: 4em;
+    font-size: 12px;
+    font-weight: bold;
+    background:white;
+    color:rgb(0, 153, 255);
+    width: 130px;
+}
+
+#giph-instructions:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 47%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: white;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -10px;
+	margin-left: -19px;
+}
+
+#think-bubble {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 280px;
+    padding-right: 520px;
+}
+
+.blink {
+    opacity: .3;
+}
